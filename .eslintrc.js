@@ -1,4 +1,6 @@
 module.exports = {
+  // testEnvironment:'jsdom',
+  // setupFiles: ['./jest.setup.js'],
   env: { browser: true, es2020: true, jest:true, babel:true },
   extends: [
     'eslint:recommended',

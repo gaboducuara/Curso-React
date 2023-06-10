@@ -4,8 +4,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 //COMPONENTES HA RENDERIZAR
-// import { FirtsApp } from './FirtsApp'
-   import { CounterApp } from './CounterApp'
+    import { FirtsApp } from './FirtsApp'
+    import { CounterApp } from './CounterApp'
 // import { Wow } from './wow'
 // import { School } from './School'
 
@@ -15,7 +15,7 @@ import './styles.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <FirtsApp /> */}
-    <CounterApp value = {1}/>
+    <CounterApp value={100}/>
     {/* <Wow igor = 'Mi nombre es bani'/> */}
     {/* <School name = 'instituto tecnico industrial'/> */}
   </React.StrictMode>,
